@@ -17,12 +17,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 40px;
 	margin-bottom: 58px;
+	
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 20px;
 	margin-bottom: 28px;
 }
 
@@ -36,6 +37,12 @@ section {
 
 p {
 	margin: 0;
+	padding-right: auto;
+}
+
+p1 {
+	margin: 0;
+	padding-right: 400px;
 }
 
 ul, li {
@@ -51,7 +58,7 @@ ul, li {
 }
 
 .header {
-	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	background: url('../portfolio/assets/img/mountains.jpg') no-repeat center top / cover;
 	padding-top: 57px;
 	color: #fff;
 	padding-bottom: 322px
@@ -131,6 +138,10 @@ header a {
 	display: flex;
 	justify-content: space-between;
 }
+.descriptionL {
+	display: flex;
+	justify-content: center;
+}
 
 .description p {
 	font-family: 'Open Sans', sans-serif;
@@ -138,9 +149,25 @@ header a {
 	text-align: justify;
 	line-height: 1.62em;
 }
+.description1{
+	width: 220px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	border: 2px solid #BDAE82;
+	padding: 8px 79px 7px 79px;
+}
+.description2{
+	display: flex;
+	height: 55px;
+	justify-content: center;
+	border: 2px solid #BDAE82;
+	padding: 8px 79px 7px;
+	background-color: #BDAE82;
+}
 
 .desc-left, .desc-right {
-	width: 567px;
+	width: 200px;
 }
 
 .gallery {
@@ -167,4 +194,11 @@ header a {
 
 .footer-text p {
 	margin-right: 67px;
+}
+.pos img {
+	position: absolute;
+	height: 560px;
+	left: 0%;
+	right: 67.86%;
+	top: 0px;
 }
